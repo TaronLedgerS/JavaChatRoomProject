@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="qqchat">
+    <output-path>$PROJECT_DIR$/out/artifacts/qqchat</output-path>
+    <root id="archive" name="qqchat.jar">
+      <element id="module-output" name="qqchat" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+      <element id="library" level="project" name="mysql" />
+    </root>
+  </artifact>
+</component>

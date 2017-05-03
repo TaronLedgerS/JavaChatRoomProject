@@ -1,0 +1,53 @@
+package UILayer;
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+import javax.swing.*;
+//import java.awt.*;
+
+
+public class ChatClient {
+	
+	JTextArea chatArea;//聊天信息文本区
+	JTextField sendArea;//信息发送区
+	BufferedReader reader;
+	PrintWriter writer;
+	ServerSocket sock;
+	
+	public static void main(String[] args){
+		ChatClient client = new ChatClient();
+		client.go();
+	}
+	
+	public void go(){
+		JFrame frame = new JFrame("This is a simple ChatClient_V1.0");
+		JPanel mainpanel = new JPanel();
+		//聊天区初始化
+		chatArea = new JTextArea(15,50);//15行50个字
+		chatArea.setLineWrap(true);//启动自动换行
+		chatArea.setEditable(false);//不可编辑
+			//更改为可垂直滚动区
+		JScrollPane qScroller = new JScrollPane(chatArea);
+		qScroller.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+		qScroller.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		
+		//消息发送区初始化
+		sendArea = new JTextField(20);
+		JButton sendButton = new JButton("Send");
+		//TODO:sendButton.addActionListener();
+		
+		mainpanel.add(qScroller);
+		mainpanel.add(sendArea);
+		mainpanel.add(sendButton);
+		
+		//TODO 
+		
+		
+		
+	}
+
+	
+
+
+}

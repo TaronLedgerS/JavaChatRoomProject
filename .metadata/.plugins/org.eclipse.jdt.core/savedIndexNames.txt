@@ -1,0 +1,20 @@
+INDEX VERSION 1.129+C:\Users\TaronLedgerS\Desktop\JavaChatRoomProject\.metadata\.plugins\org.eclipse.jdt.core
+2193673639.index
+4003147046.index
+3230104594.index
+1459440640.index
+3099180454.index
+91914294.index
+2274368526.index
+2945676821.index
+13440902.index
+1733282783.index
+1146995356.index
+2795060620.index
+63826456.index
+3570483073.index
+280416241.index
+197506476.index
+2799353683.index
+1984257195.index
+4058093822.index

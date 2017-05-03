@@ -1,0 +1,11 @@
+package UILayer;
+
+import javax.swing.*;
+
+public class ChatClient {
+	
+	JTextArea incoming;//адлЛ
+	
+
+
+}

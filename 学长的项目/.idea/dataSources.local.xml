@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - qqchat@localhost" uuid="ceb932e7-fc33-411a-9c61-ed43f7dccba8">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>qqchat.*</schema-pattern>
+      <default-schemas>qqchat.*</default-schemas>
+    </data-source>
+  </component>
+</project>
