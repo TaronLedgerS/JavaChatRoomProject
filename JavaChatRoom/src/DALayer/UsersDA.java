@@ -24,7 +24,6 @@ public class UsersDA {
 		String sql = "SELECT  * FROM users WHERE name='"+name+"' AND password='"+password+"'";
 		ResultSet rs = statement.executeQuery(sql);
 		UsersEntity user = null;
-		System.out.println("12312312");
 		if (rs.next()) {
 			user = new UsersEntity();
 			user.setID(rs.getInt("id"));
